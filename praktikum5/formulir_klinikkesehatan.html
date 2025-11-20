@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Perpustakaan Madiun</title>
+    </head>
+<body>
+    <form action="formuli_klinikkesehatan.html" method="get">
+
+        <label for="nama">Nama</label>
+        <input type="text" id="nama" name="nama"/>
+        <br/><br/>
+
+        <p>Jenis kelamin : </p>
+        <input type="radio" id="laki-laki" name="jenis_kelamin" value="laki-laki" />
+        <label for="laki-laki">Laki-laki</label>
+        <input type="radio" id="perempuan" name="jenis_kelamin" value="perempuan" />
+        <label for="perempuan">Perempuan</label>
+        <br/><br/>
+        
+        <label for="telepon">telepon</label>
+        <input type="telepon" id="telepon" name="telepon" />
+        <br/><br/>
+
+        <label for="alamat"> Alamat : </label>
+        <textarea id="alamat" name="alamat" rows="5" cols="40"></textarea>
+        <br/><br/>
+
+        <label for="pendidikan_terakhir">Pendidikan Terakhir</label>
+        <select id="pendidikan_terakhir" name="pendidikan_terakhir">
+            <option value="tidak">Tidak</option>
+            <option value="belum sekolah">Belum Sekolah</option>
+            <option value="SD">SD</option>
+            <option value="SMP">SMP</option>
+            <option value="SMA/SMK">SMA/SKM</option>
+            <option value="Mahasiswa">Mahasiswa</option>
+        </select>
+        <br/><br/>
+        
+        <label for="Pekerjaan"> Pekerjaan : </label>
+        <textarea id="Pekerjaan" name="Pekerjaan" rows="5" cols="40"></textarea>
+        <br/><br/>
+
+        <label for="jenis pasien">Jenis Pasien</label>
+        <select id="jenis pasien">name="jenis pasien">
+            <option value="umum">Umum</option>
+            <option value="BPJS">BPJS</option>
+        </select>
+        <br/><br/>
+
+        <input type="submit" value="Mulai proses">
+    </form>
+</body>
+</html>
